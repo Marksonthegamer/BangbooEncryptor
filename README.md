@@ -53,7 +53,7 @@ Require .NET 8 or later.<br>
 
 ```bash
 # Clone the repo
-git clone https://github.com/你的用户名/BangbooEncryptor.git
+git clone https://github.com/Marksonthegamer/BangbooEncryptor.git
 cd BangbooEncryptor
 
 # Run directly
