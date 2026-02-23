@@ -28,7 +28,7 @@ internal static class Program
             }
             if (arg == "-V" || arg == "--version")
             {
-                Console.WriteLine("BangbooEncryptor v1.0");
+                Console.WriteLine("BangbooEncryptor v1.0.0");
                 return;
             }
             if (arg is "-t" or "--trim")
