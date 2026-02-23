@@ -83,11 +83,11 @@ internal static class Program
             return;
         }
 
-        string text = string.Empty;
+        string text;
 
         if (command == "interactive")
         {
-            RunInteractiveMode(password, seed);
+            RunInteractiveMode();
             return;
         }
 
@@ -133,7 +133,7 @@ internal static class Program
         }
     }
 
-    private static void RunInteractiveMode(string defaultPassword, int defaultSeed)
+    private static void RunInteractiveMode()
     {
         Console.WriteLine("Good day! Would you like to encrypt texts or decrypt gibberish? [encrypt/decrypt]");
         string command = Console.ReadLine() ?? string.Empty;
@@ -172,13 +172,13 @@ internal static class Program
 
         Console.WriteLine($"Password {(command == "encrypt" ? "(optional)" : "(leave empty if unset)")}:");
         string passwordInput = Console.ReadLine() ?? string.Empty;
-        string finalPassword = passwordInput != string.Empty ? passwordInput : defaultPassword;
+        string finalPassword = passwordInput != string.Empty ? passwordInput : string.Empty;
 
         if (command == "encrypt")
         {
             Console.WriteLine("Seed (optional):");
             string seedInput = Console.ReadLine() ?? string.Empty;
-            int finalSeed = defaultSeed;
+            int finalSeed;
             
             while (!int.TryParse(seedInput, out finalSeed) && seedInput != string.Empty)
             {

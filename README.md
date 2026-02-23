@@ -1,4 +1,4 @@
-# Language / 语言选择
+# 语言选择 / Language
 - [简体中文](#简体中文)
 - [English](#English)
 
@@ -46,10 +46,9 @@ BangbooEncryptor interactive
 BangbooEncryptor --help
 ```
 
-## 构建 / Build
+## 构建
 
-需要 .NET 8 或更高版本。<br>
-Require .NET 8 or later.<br>
+需要 .NET 8 或更高版本。
 
 ```bash
 # Clone the repo
@@ -63,7 +62,7 @@ dotnet run encrypt "test" -p secret
 dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true
 ```
 
-## 谁适合用？ / Who is this for?
+## 谁适合用？
 
 - 绝区零玩家（尤其是喜欢邦布的）
 - 想在群里/评论区藏东西又不想被一眼看穿的人
@@ -72,7 +71,7 @@ dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=
 
 **注意**：这不是严肃的加密工具！安全性仅供娱乐，千万不要用来传真正敏感信息哦～
 
-## 致谢 / Credits
+## 致谢
 
 灵感来源：
 - 《绝区零》里的可爱邦布们
@@ -144,9 +143,7 @@ dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=
 - Enthusiastic meme lovers who enjoy creating inside jokes and community codes
 - Scenarios requiring low-bandwidth, context-heavy covert communication
 
-**Warning**: This is **not** a serious cryptographic tool. It's for fun, memes, and light community play. Do **not** use it for sensitive data!
-
-
+**Warning**: This is literally vibe-coding stuff and **not** a serious cryptographic tool. It's for fun, memes, and light community play. Do **not** use it for sensitive data!
 
 Inspired by cute bangboos in ZZZ and linguistic steganography.
 
