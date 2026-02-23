@@ -7,7 +7,9 @@
 ## 简体中文
 # BangbooEncryptor
 
-把任何文本加密成《绝区零》中邦布特有的语言。
+把任何文本加密成《绝区零》中邦布特有的语言。<br>
+本项目采用 MIT 许可协议，详见 LICENSE 文件。
+
 
 ## 这是什么？
 
@@ -83,7 +85,8 @@ dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=
 ## English
 # BangbooEncryptor
 
-Encrypt any text into adorable Bangboo speech from Zenless Zone Zero.
+Encrypt any text into adorable Bangboo speech from Zenless Zone Zero.<br>
+Licensed under the MIT License. See the LICENSE file for details.
 
 ##  What is this?
 
